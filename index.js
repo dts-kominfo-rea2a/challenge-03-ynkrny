@@ -25,7 +25,7 @@ const listBelanjaan = (data)=>{
   const hasil = [];
 
   for (let index = 0; index < data.length; index++) {
-    hasil.push("- "+data[index].nama+" X "+data[index].kuantitas);
+    hasil.push("- "+data[index].nama+" x "+data[index].kuantitas);
   }
 
   return hasil;
